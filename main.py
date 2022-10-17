@@ -1,7 +1,7 @@
 import pickle
 from datetime import datetime
 import pandas as pd
-from keras.utils import pad_sequences
+from keras_preprocessing.sequence import pad_sequences
 from sklearn.preprocessing import LabelEncoder
 from keras.preprocessing.text import Tokenizer
 from functools import wraps
