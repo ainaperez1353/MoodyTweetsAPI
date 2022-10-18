@@ -15,7 +15,7 @@ model_folder_path = Path("models")
 with open(model_folder_path / "lstm_model.pkl", "rb") as pickled_model:
     model = pickle.load(pickled_model)
 
-# load tokenizer 
+# load tokenizer
 with open('tokenizer.pickle', 'rb') as handle:
     tokenizer = pickle.load(handle)
 MAX_SEQUENCE_LENGTH = 30
